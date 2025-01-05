@@ -1,0 +1,5 @@
+La data de este proyecto fue obtenida a través del siguiente link de descarga:
+https://survey.stackoverflow.co/ 
+
+Se han utilizado las respuestas de los años 2023 y 2024. 
+No puede subirse al repositorio porque son demasiado grandes los archivos. 
