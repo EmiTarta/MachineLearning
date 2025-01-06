@@ -5,18 +5,20 @@
 
 ### 📑 **Tabla de Contenidos**
 - [📌 Presentación del Proyecto](#-presentación-del-proyecto)
-  - [Introducción: Problema y Solución](#introducción)
-  - [Dataset y Análisis Inicial](#dataset-y-análisis-inicial)
+  - Introducción: Problema y Solución
+  - Dataset y Análisis Inicial
 - [🛠️ Estructura del Proyecto](#️-estructura-del-proyecto)
-  - [Análisis Exploratorio de Datos (EDA)](#análisis-exploratorio-de-datos-eda)
-  - [Feature Engineering](#feature-engineering)
-  - [Entrenamiento del Modelo](#entrenamiento-del-modelo)
-  - [Pipeline Automático](#pipeline-automático)
-  - [Despliegue en Streamlit](#despliegue-en-streamlit)
+  - Preparación del Dataset
+    Feature Engineering
+  - Entrenamiento del Modelo
+  - Métricas de Evaluación
+  - Pipeline Automático
+  - Despliegue en Streamlit
 - [🔍 Conclusión y Propuesta de Valor](#-conclusión-y-propuesta-de-valor)
-  - [Conclusión](#conclusión)
-  - [Propuesta de Valor](#propuesta-de-valor)
-  - [Siguientes Pasos](#siguientes-pasos)
+  - Conclusiones
+  - Propuesta de Valor
+  - Siguientes Pasos
+- [🔍 🛠️ Tecnologías Utilizadas](#-teconologías'utilizadas)
 
  _____________________________________________________________________________________________
 ### 📌 **Presentación del Proyecto**
