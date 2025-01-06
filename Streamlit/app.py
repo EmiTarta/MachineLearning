@@ -184,4 +184,4 @@ if st.button("Predecir Salario"):
 
     # Mostrar el resultado
     st.subheader("Resultado de la Predicción")
-    st.write(f"El salario anual bruto predicho es: **${predicted_salary[0]:,.2f}**")
+    st.subheader(f"El salario anual bruto predicho es: **${predicted_salary[0]:,.2f}**")
