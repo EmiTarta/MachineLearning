@@ -3,25 +3,25 @@
 
 📅Fecha: Enero 2025
 
-### 📑 **Tabla de Contenidos**
-- [📌 Presentación del Proyecto](#-presentación-del-proyecto)
-  - Introducción: Problema y Solución
-  - Dataset y Análisis Inicial
-- [🛠️ Estructura del Proyecto](#️-estructura-del-proyecto)
-  - Preparación del Dataset
-  - Feature Engineering
-  - Entrenamiento del Modelo
-  - Métricas de Evaluación
-  - Pipeline Automático
-  - Despliegue en Streamlit
-- [🔍 Conclusión y Propuesta de Valor](#-conclusión-y-propuesta-de-valor)
-  - Conclusiones
-  - Propuesta de Valor
-  - Siguientes Pasos
-- [🔍 🛠️ Tecnologías Utilizadas](#-teconologías'utilizadas)
+## 📑 **Tabla de Contenidos**
+- [📌 Presentación del Proyecto](#presentación-del-proyecto)
+  - [Introducción: Problema y Solución](#introducción-problema-y-solución)
+  - [Dataset y Análisis Inicial](#dataset-y-análisis-inicial)
+- [🛠️ Estructura del Proyecto](#estructura-del-proyecto)
+  - [Preparación del Dataset](#preparación-del-dataset)
+  - [Feature Engineering](#feature-engineering)
+  - [Entrenamiento del Modelo](#entrenamiento-del-modelo)
+  - [Métricas de Evaluación](#métricas-de-evaluación)
+  - [Pipeline Automático](#pipeline-automático)
+  - [Despliegue en Streamlit](#despliegue-en-streamlit)
+- [🔍 Conclusión y Propuesta de Valor](#conclusión-y-propuesta-de-valor)
+  - [Conclusiones](#conclusiones)
+  - [Propuesta de Valor](#propuesta-de-valor)
+  - [Siguientes Pasos](#siguientes-pasos)
+- [🛠️ Tecnologías Utilizadas](#tecnologías-utilizadas)
 
  _____________________________________________________________________________________________
-### 📌 **Presentación del Proyecto**
+## 📌 Presentación del Proyecto
 ##### 🎯 *Introducción*
 
 Este proyecto se desarrolló un modelo de predicción de salarios en el sector tecnológico en España. La herramienta se dirige a dos públicos principales:
@@ -35,8 +35,8 @@ Este proyecto se desarrolló un modelo de predicción de salarios en el sector t
 - **Fuente de Datos**: Encuestas anuales de Stack Overflow 2023 y 2024, de las muestras que tenían datos sobre la Compensación Total Anual, y que residen en Espaá (total de 1,934 registros y 397 variables). 
 
 🔗 Se pueden conseguir las mismas en este [link de desacarga](https://survey.stackoverflow.co/) 
-
-### 🛠️**Estructura del Proyecto**
+ _____________________________________________________________________________________________
+## 🛠️Estructura del Proyecto
 ```python
 ├── data/                     # .txt con link de descarga
 ├── notebooks/                # Notebooks con análisis y modelado
@@ -66,17 +66,20 @@ Este proyecto se desarrolló un modelo de predicción de salarios en el sector t
   - *Codificación* de variables categóricas con métodos como OneHotEncoder y Target Encoding.
  
 - **Feature Engineering**
+
 *Selección de Variables*:
-- Proceso iterativo basado en el rendimiento del modelo con Random Forest.
-- Reducción de 400 a 200 variables relevantes, seleccionando finalmente un top 35 características para el modelo final.
+  - Proceso iterativo basado en el rendimiento del modelo con Random Forest.
+  - Reducción de 400 a 200 variables relevantes, seleccionando finalmente un top 35 características para el modelo final.
 *Variables Destacadas*:
-- YearsCodePro (años de experiencia profesional).
-- DevType (tipo de rol).
-- - LanguageWantToWorkWith (lenguajes de programación deseados para trabajar en un futuro ).
-ToolsTechHaveWorkedWith (herramientas utilizadas).
+  - YearsCodePro (años de experiencia profesional).
+  - DevType (tipo de rol).
+  - LanguageWantToWorkWith (lenguajes de programación deseados para trabajar en un futuro ).
+  ToolsTechHaveWorkedWith (herramientas utilizadas).
 
 ______________________________________________________________________________________________________________________________________________________________________
-### 🔍 **Modelos Probados**: Se probaron varios algoritmos de regresión:
+##### 🔍 Entrenamiento del Modelo: 
+
+Se probaron varios algoritmos de regresión: 
 - Linear Regression
 - Random Forest
 - Gradient Boosting
@@ -115,7 +118,7 @@ Se desarrolló una aplicación web que permite a los usuarios:
 
 🔗 Para correr la app: ```python streamlit run app.py```
 ____________________________________________________________________________________________________________________________________________________________________
-### ✅ **Conclusiones**
+## ✅ Conclusiones
 - Valor para Particulares: Orientación personalizada para optimizar su perfil profesional y maximizar sus ingresos.
 - Valor para Reclutadores: Estimaciones salariales competitivas basadas en datos reales, libres de sesgos.
 
@@ -127,7 +130,7 @@ ________________________________________________________________________________
 *Integración*: Desarrollar una API para permitir que plataformas externas utilicen el modelo.
 *Expansión*: Extender el modelo a sectores fuera del IT.
 ____________________________________________________________________________________________________________________________________________________________________
-### 🛠️ **Tecnologías Utilizadas**
+## 🛠️ Tecnologías Utilizadas
 
 El desarrollo de este proyecto incluyó una variedad de herramientas y tecnologías modernas para garantizar un flujo de trabajo eficiente y un modelo predictivo robusto. Las principales tecnologías utilizadas fueron:
 
