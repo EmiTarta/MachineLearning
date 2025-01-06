@@ -38,8 +38,9 @@ Este proyecto se desarrolló un modelo de predicción de salarios en el sector t
  _____________________________________________________________________________________________
 ## 🛠️Estructura del Proyecto
 ```python
-├── data/                     # .txt con link de descarga
-├── notebooks/                # Notebooks con análisis y modelado
+├── Data/
+    ├── Link_Descarga.txt                
+├── Notebooks/                # Notebooks con análisis y modelado
     ├── PrimerNotebook.ipynb
     ├── 2. Sof_23.ipynb
     ├── 3. Sof_24.ipynb
@@ -55,8 +56,11 @@ Este proyecto se desarrolló un modelo de predicción de salarios en el sector t
     ├── df_final.pikle
     ├── Scaler.pkl
     ├── MiModelo.pkl
-    ├── Pipeline.pkl
-├── app.py                    # Aplicación Streamlit
+    ├── Pipeline.pkl                   
+├── Streamlit/                # Notebooks con análisis y modelado
+    ├── app.py                # Aplicación Streamlit
+    ├── custom_preprocessor.py
+    ├── image.jpeg
 ├── requirements.txt          # Dependencias del proyecto
 ```
 
