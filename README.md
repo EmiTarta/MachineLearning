@@ -9,7 +9,7 @@
   - Dataset y Análisis Inicial
 - [🛠️ Estructura del Proyecto](#️-estructura-del-proyecto)
   - Preparación del Dataset
-    Feature Engineering
+  - Feature Engineering
   - Entrenamiento del Modelo
   - Métricas de Evaluación
   - Pipeline Automático
@@ -36,7 +36,7 @@ Este proyecto se desarrolló un modelo de predicción de salarios en el sector t
 
 🔗 Se pueden conseguir las mismas en este [link de desacarga](https://survey.stackoverflow.co/) 
 
-🛠️ *Estructura del Proyecto*
+### 🛠️**Estructura del Proyecto**
 ```python
 ├── data/                     # .txt con link de descarga
 ├── notebooks/                # Notebooks con análisis y modelado
