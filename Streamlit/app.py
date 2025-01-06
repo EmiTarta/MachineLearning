@@ -36,7 +36,7 @@ st.markdown("""
 
 
 # Imagen central
-st.image("image.jpeg", use_container_width=True, caption="Explorando el mundo IT")
+st.image("./image.jpeg", use_container_width=True, caption="Explorando el mundo IT")
 
 # Cargar el pipeline preentrenado
 with open('../Pickles/Pipeline.pkl', 'rb') as f:
