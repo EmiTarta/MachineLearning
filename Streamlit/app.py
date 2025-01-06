@@ -35,8 +35,14 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# Imagen central
-st.image("./image.jpeg", use_container_width=True, caption="Explorando el mundo IT")
+# Obtener el directorio base del archivo actual (app.py)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Ruta absoluta para la imagen
+image_path = os.path.join(current_dir, "image.jpeg")
+
+# Usar la ruta absoluta en st.image
+st.image(image_path, use_container_width=True, caption="Explorando el mundo IT")
 
 # Cargar el pipeline preentrenado
 with open('../Pickles/Pipeline.pkl', 'rb') as f:
