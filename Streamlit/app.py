@@ -4,6 +4,7 @@ import numpy as np
 import pickle
 import joblib
 import os
+from custom_preprocessor import CustomPreprocessor
 
 # Configuración de la página
 st.set_page_config(
