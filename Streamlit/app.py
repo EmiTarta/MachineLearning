@@ -45,7 +45,7 @@ st.image(image_path, use_container_width=True, caption="Explorando el mundo IT")
 # Obtener el directorio base del archivo actual
 current_dir = os.path.dirname(os.path.abspath(__file__))
 # Crear una ruta absoluta al archivo Pipeline.pkl
-pipeline_path = os.path.join(current_dir, "Pickles", "Pipeline.pkl")
+pipeline_path = os.path.join(current_dir, "Pipeline.pkl")
 # Cargar el pipeline
 with open(pipeline_path, 'rb') as f:
     pipeline = joblib.load(f)
