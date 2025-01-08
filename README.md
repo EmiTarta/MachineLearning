@@ -3,6 +3,8 @@
 
 📅Fecha: Enero 2025
 
+![FairPay](image_readme.png)
+
 ## 📑 **Tabla de Contenidos**
 - [📌 Presentación del Proyecto](#presentación-del-proyecto)
   - [Introducción: Problema y Solución](#introducción-problema-y-solución)
