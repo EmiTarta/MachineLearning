@@ -132,8 +132,11 @@ ________________________________________________________________________________
 
 ### Siguientes Pasos
 *Personalización*: Agregar filtros por región, industria, o características específicas.
+
 *Ampliar el Dataset*: Incorporar datos de nuevas encuestas y fuentes externas.
+
 *Integración*: Desarrollar una API para permitir que plataformas externas utilicen el modelo.
+
 *Expansión*: Extender el modelo a sectores fuera del IT.
 ____________________________________________________________________________________________________________________________________________________________________
 ## 🛠️ Tecnologías Utilizadas
@@ -144,16 +147,29 @@ El desarrollo de este proyecto incluyó una variedad de herramientas y tecnolog�
 - Python 3.10.15: Utilizado para todo el desarrollo del proyecto, desde el análisis exploratorio de datos hasta el despliegue del modelo en Streamlit.
 
 **📚 Bibliotecas de Machine Learning y Preprocesamiento**
+
 - Pandas, NumPy
+
 - Scikit-learn
+
 - XGBoost (para utilizarlo se debe hacer ```python pip install xgboost```)
+
 - Joblib (para utilizarlo se debe hacer ```python pip install jolib```)
 
 3. **Visualización**
+
 - Matplotlib y Seaborn: Creación de gráficos para análisis exploratorio y visualización de distribuciones.
 
 4. **Despliegue Web**
+
 - Streamlit: Desarrollo de una interfaz web interactiva para predicción de salarios en tiempo real. (Para utilizarlo se debe hacer ```python pip install streamlit```)
 
+Link de la aplicación desplegada en Streamlit
+
+Este es el link de la aplicación desplegada en Streamlit: ![Predictor_Salarios](https://geminiapp-l.streamlit.app/)
+
+Nota: si el link no funciona, se debe a que la versión gratuita de Streamlit permite sólo un proyecto desplegado, y este se ha dado de baja. 
+
 5. **Gestión de Datos*
+
 - Pickle: Almacenamiento y carga de datos procesados, pipelines y modelos entrenados.
